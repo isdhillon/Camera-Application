@@ -1,0 +1,86 @@
+/*Applied to all*/
+*{
+    box-sizing: border-box;
+}
+/*Html tags*/
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: black;
+}
+/*Heading banner*/
+.gallery-banner{
+    position: fixed;
+    top: 0%;
+    background-color: #d91d1d;
+    height: 5rem;
+    width: 100vw;
+}
+.gallery-title-div{
+    margin: 0 auto;
+    height: 100%;
+    width: 7rem;
+    display: flex;
+
+}
+/*Gallery */
+.gallery{
+    margin-top: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-img-container,
+.gallery-video-container{
+    width: 20rem;
+    height: 20rem;
+    background-color: white;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.gallery-img-container img,
+.gallery-video-container video{
+    height: 75%;
+    display: block;
+    width: 100%;
+
+}
+.gallery-delete-button,
+.gallery-download-button{
+    border: none;
+    height: 10%;
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+    width: 100%;
+}
+.gallery-delete-button{
+    background-color: #d91d1d;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+.gallery-download-button{
+    background: #291e1e;
+}
+/*Back button*/
+.gallery-back{
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    height: 3rem;
+    display: flex;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: space-around;
+}

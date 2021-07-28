@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera</title>
+    <!--Links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Video container-->
+    <div class="video-container">
+        <!--Video-->
+        <video class="video" autoplay></video>
+        </div>
+    </div>
+    <!--Filters-->
+    <div class="filter-overlay"></div>
+    <div class="filter-btn-container">
+        <div class="filter" style="background-color: #f4a2613d;"></div>
+        <div class="filter" style="background-color: #e85d0440;"></div>
+        <div class="filter" style="background-color: #ad5d6d7a;"></div>
+        <div class="filter" style="background-color: #2195f323;"></div>
+        <div class="filter"></div>
+    </div>
+    <!--Timing-->
+    <div class="timing">00:00:00</div>
+    <!--Zoom Parent-->
+    <div class="zoom-parent">
+        <div class="zoomin-container plus">
+            <i class="fas fa-plus icon"></i>
+        </div>
+        <div class="zoomout-container minus">
+            <i class="fas fa-minus icon"></i>
+        </div>
+    </div>
+    <!--Record button container-->
+    <div class="btn-container">
+        <!--Record button-->
+        <div class="record round-btn"></div>
+    </div>
+    <!--Image button container-->
+    <div class="btn-container position-top">
+        <!--Click image button-->
+        <div class="click-image round-btn"></div>
+    </div>
+    <!--Gallery-->
+    <div class="gallery">
+        <span class="material-icons-outlined material-icons">
+            collections
+        </span>
+    </div>
+    <!--Script Files-->
+    <script src="gallery.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
